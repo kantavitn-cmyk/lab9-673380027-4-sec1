@@ -12,8 +12,8 @@ public class Account {
     private Long id;
     
     private String accountNumber;
-    private String Ownername;
-    private double Balance;
+    private String ownerName;
+    private double balance;
 
     public Long getId() {
         return id;
@@ -31,31 +31,25 @@ public class Account {
         this.accountNumber = accountNumber;
     }
 
-    public String getOwnername() {
-        return Ownername;
+    public String getOwnerName() {
+        return ownerName;
     }
 
-    public void setOwnername(String ownername) {
-        Ownername = ownername;
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
     }
 
-    public double getBalance() {
-        return Balance;
+    public Double getBalance() {
+        return balance;
     }
 
-    public void setBalance(double balance) {
-        Balance = balance;
+    public void setBalance(Double balance) {
+        this.balance = balance;
     }
 
     public Account() {
     }
 
-    public Account(Long id, String accountNumber, String ownername, double balance) {
-        this.id = id;
-        this.accountNumber = accountNumber;
-        this.Ownername = ownername;
-        this.Balance = balance;
-    }
     
 
 
